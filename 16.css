@@ -1,0 +1,120 @@
+
+.divider::after {
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 30%;
+  }
+  
+  .divider::after {
+    left: .75em;
+  }
+
+h1{
+color: var(--grayscale-black, #000);
+font-family: 'Poppins', sans-serif;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;}
+
+.first-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.additional {
+    font-size: 10px;
+    text-align: center;
+}
+
+.b1{
+    color: var(--grayscale-black, #000);
+    text-align: center;
+    /* Poppins/Regular/18 */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+line{
+    width: 511px;
+    height: 2px;  
+    background: #000;  
+}
+h2{
+color: var(--grayscale-50, #333);
+/* Poppins/SemiBold/24 */
+font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 33.6px */
+}
+.b2{
+    color: var(--grayscale-10, #9C9C9C);
+/* Poppins/Regular/18 */
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+.btn{
+    display: inline-flex;
+    padding: 14px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid var(--grayscale-30, #3C3C3C);
+    background: var(--primary-blue-100, #2C3878);
+}
+.dn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+    
+}
+.menu{
+    color: var(--grayscale-50, #333);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.ceo{
+    width: 276px;
+    height: 90px;
+    flex-shrink: 0;
+    background: var(--grayscale-white, #FFF);
+}
+.b3{
+    color: var(--grayscale-10, #9C9C9C);
+    /* Poppins/Regular/18 */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+.rec_w{
+    width: 388px;
+    height: 295px;
+    flex-shrink: 0;
+    background: var(--grayscale-white, #FFF);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.10);
+}
+
+.rec_b{
+    width: 1440px;
+    height: 203px;
+    flex-shrink: 0;
+    background: var(--primary-blue-100, #2C3878);
+}    
